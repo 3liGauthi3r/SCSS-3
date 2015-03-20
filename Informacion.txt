@@ -1,0 +1,5 @@
+Comanto para Preprocesar
+
+sass --watch css
+
+donde css es la carpeta donde estan los Estilos y los Archivos SCSS o SASS

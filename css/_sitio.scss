@@ -1,0 +1,166 @@
+
+
+
+
+
+/*------------------------------------*\
+    $SITIO
+\*------------------------------------*/
+html {
+	background : $body-bg;
+	font-size : 100%;
+	-webkit-overflow-scrolling : touch;
+	-webkit-text-size-adjust : 100%;
+	-ms-text-size-adjust : 100%;
+}
+
+body {
+	@include container(90%);
+	background-color : transparent;
+	font-family :$font-family-base;
+	@include font-size();
+	line-height : $line-height-computed;
+	color : $text-color;
+}
+
+.container {
+	@include container(100%);
+}
+
+.contenedorPrueba {
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+  	padding-left: 2.83333%;
+  	padding-right: 2.83333%;
+  	a {
+  		position: relative;
+  	}
+	}
+	.contenedorPrueba:after {
+    content: " ";
+    display: block;
+    clear: both;}
+
+
+.encabezados {
+	@include span(2);
+}
+
+.parrafos {
+	@include span(9 at 11);
+}
+
+.defaultColor {
+	font-family: $font-family-sans-serif;
+	font-size: $font-size-base;
+	color: $body-bg;
+	width: 13em;
+	height: 50px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding: 5px;
+	float: left;
+	text-align: center;
+	@include border-radius(6px);
+}
+
+.Color1 {
+	background-color: $green_sea;
+}
+
+.Color2 {
+	background-color: $emerland;
+}
+
+.Color3 {
+	background-color: $nephritis;
+}
+
+.Color4 {
+	background-color: $peter_river;
+}
+
+.Color5 {
+	background-color: $belize_hole;
+}
+
+.Color6 {
+	background-color: $amethyst;
+}
+
+.Color7 {
+	background-color: $wisteria;
+}
+
+.Color8 {
+	background-color: $wet_asphalt;
+}
+
+.Color9 {
+	background-color: $midnight_blue;
+}
+
+.Color10 {
+	background-color: $sun_flower;
+}
+
+.Color11 {
+	background-color: $orange;
+}
+
+.Color12 {
+	background-color: $carrot;
+}
+
+.Color13 {
+	background-color: $pumpkin;
+}
+
+.Color14 {
+	background-color: $alizarin;
+}
+
+.Color15 {
+	background-color: $pomegranate;
+}
+
+.Color16 {
+	background-color: $clouds;
+}
+
+.Color17 {
+	background-color: $silver;
+}
+
+.Color18 {
+	background-color: $concrete;
+}
+
+.Color19 {
+	background-color: $asbestos;
+}
+
+.Color20 {
+	background-color: $gray-darker;
+}
+
+.Color21 {
+	background-color: $gray-dark;
+}
+
+.Color22 {
+	background-color: $gray;
+}
+
+.Color23 {
+	background-color: $gray-light;
+}
+
+.Color24 {
+	background-color: $gray-lighter;
+}
